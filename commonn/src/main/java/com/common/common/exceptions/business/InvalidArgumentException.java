@@ -1,7 +1,6 @@
 package com.common.common.exceptions.business;
 
 public class InvalidArgumentException extends BusinessException {
-    private static final long serialVersionUID = 7830064295968918115L;
 
     public InvalidArgumentException(String message) {
         super(message);
