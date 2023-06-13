@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d76a2c20-a839-4b22-aa7f-1d3667a8452b" name="Changes" comment="" />
+    <list default="true" id="55bee013-68cd-4dd2-9ccb-f99c5e655fec" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,9 +17,6 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -31,28 +28,32 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="2R6Dq22TH0jNrsfaRF6doz97kWi" />
+  <component name="ProjectId" id="2R6XPxAMkQpwvULqoFhWKxzDaRa" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "spring.configuration.checksum": "8c41d02446ff32479f8fac55fabebebd",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="CommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="common" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.common.common.CommonApplication" />
+    <configuration name="CommonParentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="common-parent" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ma.lbv.api.commonparent.CommonParentApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -61,16 +62,30 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d76a2c20-a839-4b22-aa7f-1d3667a8452b" name="Changes" comment="" />
-      <created>1686561825740</created>
+      <changelist id="55bee013-68cd-4dd2-9ccb-f99c5e655fec" name="Changes" comment="" />
+      <created>1686571485928</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1686561825740</updated>
-      <workItem from="1686561826967" duration="3633000" />
+      <updated>1686571485928</updated>
+      <workItem from="1686571486947" duration="9799000" />
+      <workItem from="1686660591940" duration="635000" />
+      <workItem from="1686661246696" duration="36000" />
+      <workItem from="1686661310271" duration="3446000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ma/lbv/api/commonparent/exceptions/technical/ObjectAlreadyExistException.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

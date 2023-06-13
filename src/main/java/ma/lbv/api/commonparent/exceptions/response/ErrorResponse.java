@@ -1,4 +1,4 @@
-package com.common.common.exceptions.response;
+package ma.lbv.api.commonparent.exceptions.response;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import io.swagger.v3.oas.annotations.media.Schema;

@@ -1,4 +1,4 @@
-package com.common.common.exceptions.response;
+package ma.lbv.api.commonparent.exceptions.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -17,7 +17,7 @@ public class ValidationResponse {
 
     private String message;
 
-    ValidationResponse(String object, String message) {
+    public ValidationResponse(String object, String message) {
         this.object = object;
         this.message = message;
     }

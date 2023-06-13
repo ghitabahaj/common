@@ -1,13 +1,13 @@
-package com.common.common;
+package ma.lbv.api.commonparent;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CommonApplication {
+public class CommonParentApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CommonApplication.class, args);
+		SpringApplication.run(CommonParentApplication.class, args);
 	}
 
 }

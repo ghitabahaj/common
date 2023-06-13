@@ -1,6 +1,6 @@
-package com.common.common.exceptions.technical;
+package ma.lbv.api.commonparent.exceptions.technical;
 
-import com.common.common.exceptions.business.BusinessException;
+import ma.lbv.api.commonparent.exceptions.business.BusinessException;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
 

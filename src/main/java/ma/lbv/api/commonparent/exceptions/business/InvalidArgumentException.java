@@ -1,4 +1,4 @@
-package com.common.common.exceptions.business;
+package ma.lbv.api.commonparent.exceptions.business;
 
 public class InvalidArgumentException extends BusinessException {
 

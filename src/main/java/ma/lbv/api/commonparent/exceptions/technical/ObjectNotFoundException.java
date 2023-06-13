@@ -1,4 +1,4 @@
-package com.common.common.exceptions.technical;
+package ma.lbv.api.commonparent.exceptions.technical;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
